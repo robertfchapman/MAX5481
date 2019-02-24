@@ -21,7 +21,7 @@
  *  along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-#include<GP_MAX5481.h>
+#include<MAX5481.h>
 
 #define DPIN 5  // Digital Pin 5 on Arduino
 
