@@ -4,7 +4,7 @@ Arduino Library for the Maxim MAX5481-5484 Digital Potentiometer
 
 This library implements functions to control the MAX5481 digital Potentiometer(s) using SPI
 
-See the datasheet for details [MAX5481](https://datasheets.maximintegrated.com/en/ds/MAX5481-MAX5484.pdf)
+See the Maxim Integrated datasheet for details [MAX5481](https://datasheets.maximintegrated.com/en/ds/MAX5481-MAX5484.pdf)
 
 ___
 
