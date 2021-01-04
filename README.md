@@ -9,6 +9,8 @@ See the datasheet for details [MAX5481](https://datasheets.maximintegrated.com/e
 This library was inspired by previous works done by Gabriel Staples and Others.
 
   [http://forum.arduino.cc/index.php?topic=242376.0](http://forum.arduino.cc/index.php?topic=242376.0)
+
   [http://www.electricrcaircraftguy.com/2016/11/MAX5481-DigitalPotentiometer.html](http://www.electricrcaircraftguy.com/2016/11/MAX5481-DigitalPotentiometer.html)
+
 
 If you like and use this library please consider making a small donation using [PayPal](https://www.paypal.me/robertfchapman/5USD)
