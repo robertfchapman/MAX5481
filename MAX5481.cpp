@@ -3,7 +3,7 @@
  *
  * Created on: 11-16-2016
  *     Author: Robert F. Chapman <Robert.F.Chapman@gmail.com>
- *             Copyright (c) 2016-2019 Robert F. Chapman
+ *             Copyright (c) 2016-Current Robert F. Chapman
  *  
  *  This file is part of MAX5481 Library for Arduino Micro(s).
  *

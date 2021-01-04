@@ -1,0 +1,19 @@
+{
+  "name": "MAX5481",
+  "keywords": "MAX5481, MAX5482, MAX5483, MAX5484, Digital Potentiometer, potentiometer, SPI",
+  "description": "Arduino library for MAX5481-84 Digital Potentiometer",
+  "authors": 
+  {
+    "name": "Robert F. Chapman",
+    "email": "Robert.F.Chapman@gmail.com",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/robertfchapman/MAX5481.git"
+  },
+  "version": "0.2.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
