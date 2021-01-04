@@ -29,7 +29,9 @@
 MAX5481::MAX5481(uint8_t ss)
 {
      pinMode(ss, OUTPUT);
-     _SS = ss;  //Set Slave Select Pin
+     digitalWrite(ss, HIGH)  // Make sure CE is HIGH at instantiation
+
+     _SS = ss;  // Set Slave Select Pin
 }
 
 void MAX5481::setWiper(unsigned int value)
