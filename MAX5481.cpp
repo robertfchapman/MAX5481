@@ -29,7 +29,7 @@
 MAX5481::MAX5481(uint8_t ss)
 {
      pinMode(ss, OUTPUT);
-     digitalWrite(ss, HIGH)  // Make sure CE is HIGH at instantiation
+     digitalWrite(ss, HIGH);  // Make sure CE is HIGH at instantiation
 
      _SS = ss;  // Set Slave Select Pin
 }
