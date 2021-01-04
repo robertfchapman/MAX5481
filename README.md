@@ -6,7 +6,7 @@ This library implements functions to control the MAX5481 digital Potentiometer(s
 
 See the datasheet for details [MAX5481](https://datasheets.maximintegrated.com/en/ds/MAX5481-MAX5484.pdf)
 
----
+___
 
 This library was inspired by previous works done by Gabriel Staples and Others.
 
@@ -14,6 +14,6 @@ This library was inspired by previous works done by Gabriel Staples and Others.
 
 [http://www.electricrcaircraftguy.com/2016/11/MAX5481-DigitalPotentiometer.html](http://www.electricrcaircraftguy.com/2016/11/MAX5481-DigitalPotentiometer.html)
 
----
+___
 
 If you like and use this library please consider making a small donation using [PayPal](https://www.paypal.me/robertfchapman/5USD)
