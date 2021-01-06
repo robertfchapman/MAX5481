@@ -26,7 +26,7 @@
 #define DPIN 5  // Digital Pin 5 on Arduino
 
 
-MAX5481 GPOT(DPIN);
+MAX5481 DPOT(DPIN);
 
 
 void setup()
@@ -35,12 +35,14 @@ void setup()
   // This bit of code can be removed and is here only for
   // Demonstration purpouses.
   
-  GPOT.setWiper(1000);
-  GPOT.writeWiper();
+  DPOT.setWiper(1000);  // Sets the wiper to 1000
+  DPOT.writeWiper();    // Writes the value of the wiper to NVM
   delay(2500);
-  GPOT.setWiper(250);
+  DPOT.setWiper(250);   // Sets the wiper to 250
   delay(2500);
-  GPOT.readWiper();
+  DPOT.readWiper();     // Sets the wiper to the value in NVM
+                        // This command should be run in setup to initialize the DPOT
+                        // to it's last saved value.
 
 }
 
