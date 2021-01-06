@@ -8,6 +8,30 @@ See the Maxim Integrated datasheet for details [MAX5481](https://datasheets.maxi
 
 ___
 
+Class and Methods
+
+---
+
+## Constructor
+### MAX5481(int SSPIN)
+##### Description
+Instantiation of the Digital Potentiometer sets the Slave Select Pin. The Slave select is pulled high
+##### Syntax
+`MAX5481 myDpot(SSPIN);`
+##### Parameters
+SSPIN: A required parameter, number of the Slave Select Pin
+##### Return
+None
+##### Example
+```C++
+// Instantiation of MAX5481 Digital Potentiometer
+MAX5481 myDpot(11);
+```
+
+setpot(wiper_value)
+writeWiper()
+readWiper()
+
 This library was inspired by previous works done by Gabriel Staples and Others.
 
 [http://forum.arduino.cc/index.php?topic=242376.0](http://forum.arduino.cc/index.php?topic=242376.0)
