@@ -19,7 +19,7 @@ Instantiation of the Digital Potentiometer sets the Slave Select Pin. The Slave 
 ##### Syntax
 `MAX5481 myDpot(SSPIN);`
 ##### Parameters
-SSPIN: A required parameter, number of the Slave Select Pin
+SSPIN: (parameter required) Slave Select Pin of the Digital Potentiometer on the SPI bus
 ##### Return
 None
 ##### Example
