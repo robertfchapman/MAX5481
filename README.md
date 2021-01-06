@@ -28,6 +28,23 @@ None
 MAX5481 myDpot(11);
 ```
 
+## Methods
+### setWiper(int value)
+##### Description
+Sets the wiper to the given value
+##### Syntax
+`setPot(VALUE);`
+##### Parameters
+wiper_value: a value between 0-1024
+##### Return
+None
+##### Example
+```C++
+// Sets the Digital Potentiometer wiper to a given value
+setPot(wiper_value);
+```
+
+
 setpot(wiper_value)
 writeWiper()
 readWiper()
