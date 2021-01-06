@@ -1,21 +1,18 @@
 # MAX5481
 
-Arduino Library for the Maxim MAX5481-5484 Digital Potentiometer
+Arduino Library for the Maxim MAX5481-5484 Digital Potentiometers
 
 This library implements functions to control the MAX5481 digital Potentiometer(s) using SPI
 
 See the Maxim Integrated datasheet for details [MAX5481](https://datasheets.maximintegrated.com/en/ds/MAX5481-MAX5484.pdf)
 
-___
 
-Class and Methods
-
----
+## Class and Methods
 
 ## Constructor
 ### MAX5481(int SSPIN)
 ##### Description
-Instantiation of the Digital Potentiometer sets the Slave Select Pin. The Slave select is pulled high
+Instantiation of the Digital Potentiometer sets the Slave Select Pin. During the instantiation of the library the Slave Select Pin is pulled High
 ##### Syntax
 `MAX5481 myDpot(SSPIN);`
 ##### Parameters
@@ -35,7 +32,7 @@ Sets the wiper to the given value
 ##### Syntax
 `setWiper(value);`
 ##### Parameters
-value: a value between 0-1024
+value: an integer value between 0-1024
 ##### Return
 None
 ##### Example
@@ -61,7 +58,7 @@ writeWiper();
 
 ### readWiper(int value)
 ##### Description
-Moves the value in NVM into the wiper
+Sets the value in NVM into the wiper
 ##### Syntax
 `readWiper();`
 ##### Parameters
@@ -74,13 +71,13 @@ None
 readWiper();
 ```
 
-### Attibutions
+## Attributions
 This library was inspired by previous works done by Gabriel Staples and Others.
 
 [http://forum.arduino.cc/index.php?topic=242376.0](http://forum.arduino.cc/index.php?topic=242376.0)
 
 [http://www.electricrcaircraftguy.com/2016/11/MAX5481-DigitalPotentiometer.html](http://www.electricrcaircraftguy.com/2016/11/MAX5481-DigitalPotentiometer.html)
 
-___
+## Contribute
 
 If you like and use this library please consider making a small donation using [PayPal](https://www.paypal.me/robertfchapman/5USD)
