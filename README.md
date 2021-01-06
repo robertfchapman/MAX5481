@@ -33,22 +33,48 @@ MAX5481 myDpot(11);
 ##### Description
 Sets the wiper to the given value
 ##### Syntax
-`setPot(VALUE);`
+`setWiper(value);`
 ##### Parameters
-wiper_value: a value between 0-1024
+value: a value between 0-1024
 ##### Return
 None
 ##### Example
 ```C++
 // Sets the Digital Potentiometer wiper to a given value
-setPot(wiper_value);
+setWiper(wiper_value);
 ```
 
+### writeWiper(int value)
+##### Description
+Writes the current value of the wiper to NVM (Non-Volitle Memory)
+##### Syntax
+`writeWiper();`
+##### Parameters
+None
+##### Return
+None
+##### Example
+```C++
+// Sets the Digital Potentiometer wiper to a given value
+writeWiper();
+```
 
-setpot(wiper_value)
-writeWiper()
-readWiper()
+### readWiper(int value)
+##### Description
+Moves the value in NVM into the wiper
+##### Syntax
+`readWiper();`
+##### Parameters
+None
+##### Return
+None
+##### Example
+```C++
+// Moves the value in NMV into the wiper
+readWiper();
+```
 
+### Attibutions
 This library was inspired by previous works done by Gabriel Staples and Others.
 
 [http://forum.arduino.cc/index.php?topic=242376.0](http://forum.arduino.cc/index.php?topic=242376.0)
