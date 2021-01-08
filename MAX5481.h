@@ -37,11 +37,12 @@ class MAX5481
 {
     public:
         MAX5481(uint8_t ss);
-    
+        
+        void begin(void); 
         void setWiper(unsigned int value);
         void readWiper();
         void writeWiper();
-private:
+    private:
         unsigned int _SS;
 
 };
