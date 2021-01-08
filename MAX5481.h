@@ -39,7 +39,7 @@ class MAX5481
         MAX5481(uint8_t ss);
         
         void begin(void); 
-        void setWiper(unsigned int value);
+        void setWiper(uint16_t value);
         void readWiper();
         void writeWiper();
     private:
