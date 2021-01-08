@@ -34,12 +34,9 @@ void setup()
 
   // This bit of code can be removed and is here only for
   // Demonstration purpouses.
-  
-  DPOT.setWiper(1000);  // Sets the wiper to 1000
-  DPOT.writeWiper();    // Writes the value of the wiper to NVM
-  delay(2500);
-  DPOT.setWiper(250);   // Sets the wiper to 250
-  delay(2500);
+ 
+  DPOT.begin();         // Initializes the MAX5481
+
   DPOT.readWiper();     // Sets the wiper to the value in NVM
                         // This command should be run in setup to initialize the DPOT
                         // to it's last saved value.
@@ -49,6 +46,11 @@ void setup()
 void loop()
 {
 
+  DPOT.setWiper(1000);  // Sets the wiper to 1000
+  DPOT.writeWiper();    // Writes the value of the wiper to NVM
+  delay(2500);
+  DPOT.setWiper(250);   // Sets the wiper to 250
+  delay(2500);
 
 }
 
