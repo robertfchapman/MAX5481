@@ -7,7 +7,14 @@ This library implements functions to control the MAX5481 digital Potentiometer(s
 See the Maxim Integrated datasheet for details [MAX5481](https://datasheets.maximintegrated.com/en/ds/MAX5481-MAX5484.pdf)
 
 
-## Class and Methods
+## Class, Methods and Defines
+
+## Defines
+### MAX5481_MAJOR
+### MAX5481_MINOR
+### MAX5481_PATCH
+##### Description
+These defines can be used to determine the current version of the library being used in your code.
 
 ## Constructor
 ### MAX5481(int SSPIN)
