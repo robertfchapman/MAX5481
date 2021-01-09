@@ -26,7 +26,7 @@ MAX5481 myDpot(11);
 ```
 
 ## Methods
-### begin(int value)
+### begin()
 ##### Description
 Initializes the Digital Pot, setting the Slave Select Pin High
 ##### Syntax
