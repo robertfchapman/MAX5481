@@ -26,6 +26,22 @@ MAX5481 myDpot(11);
 ```
 
 ## Methods
+### begin(int value)
+##### Description
+Initializes the Digital Pot, setting the Slave Select Pin High
+##### Syntax
+`begin();`
+##### Parameters
+None
+##### Return
+None
+##### Example
+```C++
+// Initializes the the MAX5481, pulling the Chip Select ping High
+myDpot.begin();
+```
+
+
 ### setWiper(int value)
 ##### Description
 Sets the wiper to the given value
