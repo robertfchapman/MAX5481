@@ -47,7 +47,7 @@ None
 // Initializes the the MAX5481, pulling the Chip Select ping High
 myDpot.begin();
 ```
-
+---
 
 ### setWiper(int value)
 ##### Description
@@ -63,6 +63,7 @@ None
 // Sets the Digital Potentiometer wiper to a given value
 setWiper(wiper_value);
 ```
+---
 
 ### writeWiper(int value)
 ##### Description
@@ -78,6 +79,7 @@ None
 // Sets the Digital Potentiometer wiper to a given value
 writeWiper();
 ```
+---
 
 ### readWiper(int value)
 ##### Description
@@ -93,6 +95,7 @@ None
 // Moves the value in NMV into the wiper
 readWiper();
 ```
+---
 
 ## Attributions
 This library was inspired by previous works done by Gabriel Staples and Others.
